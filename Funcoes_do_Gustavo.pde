@@ -4,7 +4,7 @@ void desenhaOlhos(int x, int y, int tam)
   ellipse(x, y, tam , tam);
   ellipse(tam + x + (tam/3), y, tam, tam);
   
-  fill(0,0,0);
-  ellipse(x, y, tam , tam);
-  ellipse(tam + x + (tam/3), y, tam, tam);
+  fill(#623C0D);
+  ellipse(x, y, tam/3 , tam/3);
+  ellipse(tam + x + (tam/3), y, tam/3, tam/3);
 }
